@@ -1,4 +1,4 @@
-Based on the Machine Learning I have decided to do.
+Based on the Machine Learning I have decided to do.\n
 So I have applied to a machine learning course on Udemy.
 Ad I also checked a lot of awesome tutorials on youtube.
 I have planned on updating with projects I do on my own with certain real world problems other than those that are used in the course.
