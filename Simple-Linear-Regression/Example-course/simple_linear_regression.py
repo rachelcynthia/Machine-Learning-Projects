@@ -18,11 +18,11 @@ regressor = LinearRegression()
 regressor.fit(x_train, y_train)
 
 # Step 5: Predicting the test set results
-y_pred = regressor.predict(x_test)
+y_pred = regressor.predict(x_train)
 
 # Step 6: Visualizing the training set results
 plt.scatter(x_train, y_train, color='red')  # will print actual x and y
-plt.plot(x_train, regressor.predict(x_train))  # put x values, and the predicted values
+plt.plot(x_train, y_pred)  # put x values, and the predicted values
 plt.title('Salary Vs Experience(Training Set) --> Linear Regression')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
@@ -30,7 +30,7 @@ plt.show()
 
 # Step 7: Visualizing the test set results
 plt.scatter(x_test, y_test)
-plt.plot(x_train, regressor.predict(x_train),
+plt.plot(x_train,y_pred,
          color='blue')  # check if the training line is close to test set.--> we visualize it..
 plt.title('Salary Vs Experience(Test Set) --> Linear Regression')
 plt.xlabel('Years of Experience')
