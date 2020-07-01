@@ -16,8 +16,8 @@ dataset = pd.read_csv('Data.csv')
 # iloc = locate index iloc [rows,columns]
 x = dataset.iloc[:, :-1].values  # get all values except last column from ALL rows
 y = dataset.iloc[:, -1].values  # get values only from last column from ALL rows
-# print(x)
-# print(y)
+print(x)
+print(y)
 
 # Step 3: Taking care of Missing data
 # Import SimpleImputer
