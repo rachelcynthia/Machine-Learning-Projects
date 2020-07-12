@@ -6,6 +6,3 @@ Based on the Machine Learning I have decided to do.
 <br/>**Some of these datasets are created by me and may not be accurate, just for practice purposes**
 <br/>
 
-EDIT 1 --><br/>
-
-The files with name course in them has the instructions and explanation for the steps done.
