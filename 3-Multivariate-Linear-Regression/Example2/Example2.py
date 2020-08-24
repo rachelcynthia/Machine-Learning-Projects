@@ -13,7 +13,7 @@ print("California Data\n", x_cal, sep="")
 
 
 # PLOT THE R&D WITH COMPARISON TO MARKETING BY PLOTTING AGAINST THE PROFIT
-import matplotlib.pyplot as plt
+import matpltlib.pyplot as plt
 
 plt.scatter(x_cal.iloc[:, 0], x_cal.iloc[:, 4], color="magenta")
 plt.scatter(x_cal.iloc[:, 2], x_cal.iloc[:, 4], color="green")
